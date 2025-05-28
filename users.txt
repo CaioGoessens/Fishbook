@@ -1,0 +1,1 @@
+Username: test, Email: caiogoessens@gmail.com, Password: $2y$10$w09MV4LxmZKtl/bjkvj4ruhOx72Ct0Cyy7hOY1K8DJ6tjm8cs9TIS

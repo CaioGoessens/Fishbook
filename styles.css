@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #ffffff;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size:cover
+
+  }
+  
+h1 {
+    font-family: "Macondo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400%;
+}
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #094226;
+  }
+  
+  .nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .nav-item.active {
+    font-weight: bold;
+  }
+  
+  .nav-right .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  /* Content Layout */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Ranking Section */
+  .ranking {
+    background-color: #094226;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+  }
+  
+  .ranking h2,
+  .ranking h3 {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  
+  .ranking ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ranking li {
+    margin: 5px 0;
+  }
+  
+  .ranking a {
+    color: #99ccff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    width: 65%;
+  }
+  
+  .hero h1 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .hero img {
+    width: 80%;
+  }
+  
+  /* Floating Add Button */
+  .add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #094226;
+    color: #ffffff;
+    font-size: 36px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-button:hover {
+    background-color: #094226;
+  }
+  /* Form Elements */
+form {
+  background-color: #094226;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="email"],
+form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background-color: #33a652;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #28a745;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+/* Modal style */
+.modal {
+  display: none;  /* Hide by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black with opacity */
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal img {
+  width: 100%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
